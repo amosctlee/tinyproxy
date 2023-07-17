@@ -4,7 +4,7 @@ LABEL maintainer="CT" \
     description="Tinyproxy" \
     version="1.0"
 
-ENV TINYPROXY_VERSION=1.8
+ENV TINYPROXY_VERSION=tp-1.10.x
 
 RUN adduser -D -u 2000 -h /var/run/tinyproxy -s /sbin/nologin tinyproxy tinyproxy \
   && apk --update add -t build-dependencies \
