@@ -30,7 +30,7 @@ RUN adduser -D -u 2000 -h /var/run/tinyproxy -s /sbin/nologin tinyproxy tinyprox
 
 USER tinyproxy
 
-COPY ./tinyproxy.conf /etc/tinyproxy.conf
+COPY ./tinyproxy.conf /etc/tinyproxy/tinyproxy.conf
 
 EXPOSE 6666
 
