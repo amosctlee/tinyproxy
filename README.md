@@ -4,6 +4,7 @@
 0. [Optional] Http Basic Auth
 
   add the line to tinyproxy.conf
+  
   ```
   BasicAuth <username> <password>
   ```
